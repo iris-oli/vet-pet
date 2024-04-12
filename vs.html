@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CRUD com Firebase</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style2.css"/>
+  </head>
+  <body>
+    <header>
+      <nav>
+          <ul>
+              <li><a href="index.html" class="botao">Página Inicial</a></li>
+              <li><a href="vs.html" class="botao">cadastrar</a></li>
+              <li><a href="vs2.html" class="botao">visualizar</a></li>
+          </ul>
+      </nav>
+  </header>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div class="slideshow-container">
+      <div class="slide fade">
+          <img src="petbaner.png"  alt="Imagem" width="800" height="500" style="margin-left: 100px;" >
+      </div>
+      <div class="slide fade">
+          <img src="adotepaner.png"  alt="Imagem" width="800" height="500" style="margin-left: 100px;"  >
+      </div>
+      <div class="slide fade">
+        <img src="3.png"  alt="Imagem" width="800" height="500" style="margin-left: 100px;"  >
+    </div>
+    <div class="slide fade">
+      <img src="4.png"  alt="Imagem" width="800" height="500" style="margin-left: 100px;"  >
+  </div>
+  </div>
+  <script src="gira.js"></script>
+    <br>
+
+
+    <div class="container">
+      <div class="form">
+        cpf: <input type="text" name="RollNo" id="roll" /> <br /><br />
+        Nome:&nbsp; <input type="text" name="name" id="name" /> <br /><br />
+        Nome do Pet:&nbsp; <input type="text" name="namep" id="namep" /> <br /><br />
+        Gênero: <input type="text" name="gender" id="gender" /> <br /><br />
+        Endereço: <input type="text" name="Address" id="address" /> <br /><br />
+        telefone: <input type="text" name="telephone" id="telephone" /> <br /><br />
+
+      </div>
+
+      <div class="buttons">
+        <button id="insert">Inserir</button>
+        <button id="read">Visualizar</button>
+        <button id="update">Atualizar</button>
+        <button id="delete">Excluir</button>
+
+       </div>
+    </div>
+
+     <script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-database.js"></script>
+
+    </script>
+    <script src="fireConfig.js"></script>
+
+    <script src="myscript.js"></script>
+    <footer>
+      <p>&copy; 2024 VetPet. Todos os direitos reservados.</p>
+  </footer>
+  </body>
+</html>

@@ -1,0 +1,46 @@
+header {
+    background-color: #46bfdd;
+    color: #46bfdd;
+    padding: 10px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.botao {
+    text-decoration: none;
+    color: #fff;
+    background-color: #46bfdd;
+    padding: 5px 10px;
+    border-radius: 5px;
+    float: right;
+    margin-left: 50px;
+    font-size: 30px;
+}
+
+.botao:hover {
+    background-color: #7adfe2;
+}
+
+footer {
+    background-color: #46bfdd;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+/*#0056b3
